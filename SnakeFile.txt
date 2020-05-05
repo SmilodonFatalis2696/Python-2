@@ -1,0 +1,4 @@
+rule all:
+	input: 'input/input.txt'
+ 	output: 'output/output'
+	shell: 'wc -w < {input} > {output}'
